@@ -9,7 +9,7 @@ function Home() {
   return (
     <div>
       <Menu />
-      <BannerMain 
+      <BannerMain
       videoTitle={dadosIniciais.categorias[0].videos[0].titulo}
       videoDescription={"Escreva aqui a sua descrição"}
       url={dadosIniciais.categorias[0].videos[0].url}/>
